@@ -256,7 +256,7 @@ col3.metric(
 # ==========================
 # Interactive Plotly Visualization (Main Forecast)
 # ==========================
-st.markdown("### 📊 Sales Prediction using Machine Learning")
+st.markdown("### 📊 Demand Prediction using Machine Learning")
 
 st.markdown(
     """
@@ -471,7 +471,7 @@ compare_col, issues_col = st.columns(2)
 
 # ---- LEFT COLUMN: Next-Month Sales Projection Comparison ----# ---- LEFT COLUMN: Next-Month Sales Projection Comparison ----
 with compare_col:
-    st.markdown("### 📈 Sales Projection Comparison")
+    st.markdown("### 📈 Demand Projection Comparison")
 
     # Fixed ML forecast value instead of next_month_yhat
     monthly_run_rate = 59952
@@ -561,7 +561,7 @@ def load_google_trend(csv_path: str):
     return df_trend
 
 with issues_col:
-    st.markdown("### 🔎 Potential Issues affecting Tesla Sales")
+    st.markdown("### 🔎 Potential Issues affecting Demand")
 
     # Google Trend chart
     #st.subheader("Google Trend for Tesla")
@@ -666,4 +666,5 @@ st.markdown("""
 - Google Trends analysis for this month shows rising interest in keywords related to the **recent Tesla accident in Daejeon**. Such issue-driven sentiment may affect Tesla’s **Q4 performance**, suggesting the need for a **more conservative sales estimate**.
 
 """)
+
 
