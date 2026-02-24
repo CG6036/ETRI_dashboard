@@ -21,7 +21,7 @@ st.title("Demand Forecasting System")
 
 st.markdown(
     """
-The dashboard consists of three key components.
+The dashboard consists of three key features.
 
 **First**, it provides a machine-learning–based sales prediction that helps the sales team better understand expected sales for the upcoming month. Using this forecast, the dashboard also estimates Tesla’s projected market share.
 
@@ -666,3 +666,4 @@ st.markdown("""
 - Google Trends analysis for this month shows rising interest in keywords related to the **recent Tesla accident in Daejeon**. Such issue-driven sentiment may affect Tesla’s **Q4 performance**, suggesting the need for a **more conservative sales estimate**.
 
 """)
+
