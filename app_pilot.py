@@ -94,11 +94,13 @@ st.sidebar.markdown("---")
 
 st.sidebar.markdown(
     """
-    **ETRI ICT Strategy Laboratory**  
-    Dashboard PoC (v1.0)
-
-    © 2026 Changyu Lee
-    """
+    <div style="text-align: center;">
+        <b>ETRI ICT Strategy Laboratory</b><br>
+        Dashboard PoC (v1.0)<br><br>
+        © 2026 Changyu Lee
+    </div>
+    """,
+    unsafe_allow_html=True
 )
 
 # ==========================
@@ -662,4 +664,5 @@ st.markdown("""
 - Due to limited available sales history, the forecast should be interpreted alongside **traditional projection methods** to reduce model-related uncertainty.
 
 - Google Trends analysis for this month shows rising interest in keywords related to the **recent Tesla accident in Daejeon**. Such issue-driven sentiment may affect Tesla’s **Q4 performance**, suggesting the need for a **more conservative sales estimate**.
+
 """)
